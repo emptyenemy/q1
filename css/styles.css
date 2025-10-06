@@ -1,0 +1,313 @@
+﻿body
+{
+	margin:0px;
+	background:url("../img/main_bg.jpg") repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+/*	background-color:#394b71; */
+/*	background-position:top center; */
+}
+a
+{
+	color:#475573;
+	font-weight:900;
+	text-decoration:none;
+}
+a img
+{
+	border:0px;
+}
+p
+{
+	margin-top:0px;
+	margin-bottom:10px;
+}
+b
+{
+	font-size:13px;
+	color:#697a9e;
+}
+td img
+{
+	margin-top:10px;
+}
+.container
+{
+	width:805px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#top_menu
+{
+	width:805px;
+	height:86px;
+	margin-top:21px;
+}
+#Logo
+{
+	width:224px;
+	height:86px;
+	float:left;
+	cursor:pointer;
+	background:url("../img/logo.png") no-repeat;
+}
+#Logo:hover
+{
+	background:url("../img/logo_hover.png") no-repeat;
+}
+#End_Top_Menu
+{
+	width:21px;
+	height:86px;
+	float:right;
+}
+.menu_item
+{
+	width:112px;
+	height:52px;
+	font-weight:900;
+	float:left;
+	color:#ffffff;
+	font-size:0.9em;
+	padding-top:34px;
+	background:url("../img/menu_item.png") repeat-x;
+	text-align:center;
+	cursor:pointer;
+	float:left;
+}
+.menu_item:hover
+{
+	background:url("../img/menu_item_hover.png") repeat-x;
+}
+#Game_Menu
+{
+	width:805px;
+	height:153px;
+	margin-top:20px;
+	margin-bottom:60px;
+}
+#Left_Game_Menu
+{
+	width:259px;
+	height:153px;
+	background:url("../img/game_menu_left.png") no-repeat;
+	float:left;
+	font-weight:900;
+	overflow:hidden;
+}
+#Insight
+{
+	width:239px;
+	height:136px;
+	margin-left:15px;
+	margin-top:10px;
+	overflow:hidden;
+}
+#Left_Game_Menu table
+{
+	width:97%;
+	margin-top:3px;
+	border:3px double #a6c3e5;
+	border-radius:10px;
+}
+#Left_Game_Menu table td
+{
+	height:23px;
+	cursor:pointer;
+	background-color:#8dace8;
+	border-radius:4px;
+}
+#Left_Game_Menu table td:hover
+{
+	background:url("../img/white_Line.png") repeat-x;
+}
+.Head, .Subhead
+{
+	font-size:15px;
+	margin-left:10px;
+	color:#ffffff;
+}
+.Subhead
+{
+	font-size:11px;
+}
+#Right_Game_Menu
+{
+	width:526px;
+	height:153px;
+	padding-left:10px;
+	padding-right:10px;
+	background:url("../img/game_menu_right.png") no-repeat;
+	float:right;
+	font-weight:900;
+}
+#Right_Game_Menu table
+{
+	width:100%;
+	height:100%;
+/*	float:left; */
+	vertical-align:middle;
+}
+#Game_img
+{
+	width:132px;
+}
+.ArrowLeft
+{
+	background:url("../img/left_arrow.png") no-repeat;
+}
+.ArrowRight
+{
+	background:url("../img/right_arrow.png") no-repeat;
+}
+.ArrowLeft:hover
+{
+	background:url("../img/left_arrow_hover.png") no-repeat;
+}
+.ArrowRight:hover
+{
+	background:url("../img/right_arrow_hover.png") no-repeat;
+}
+.ArrowLeft, .ArrowRight, .ArrowLeft:hover, .ArrowRight:hover
+{
+	width:34px;
+	height:92px;
+	cursor:pointer;
+	background-position:center;
+}
+#Right_Game_Menu table img
+{
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+}
+#Right_Game_Menu table td .Head
+{
+	color:#ffffff;
+	font-size:20px;
+}
+.Subscript
+{
+	color:#c6dfff;
+	font-size:12px;
+}
+#Content
+{
+	width:100%;
+	/*height:522px;*/
+	margin-bottom:40px;
+}
+#Content td
+{
+	padding-left:26px;
+	text-align:left;
+	vertical-align:top;
+}
+h1
+{
+	margin-left:50px;
+}
+#Content h1, h1
+{
+	color:#475573;
+	font-size:22px;
+	margin:0px;
+	margin-bottom:10px;
+}
+#Content h2
+{
+	width:100%;
+	color:#697a9e;
+	font-size:17px;
+	margin:0px;
+	padding-top:10px;
+	border-top:1px dashed;
+	border-top-color:#5e84b2;
+}
+#Content h3
+{
+	color:#83a2cb;
+	font-size:14px;
+	margin-bottom:0px;
+}
+#Content p, ul
+{
+	color:#5a7ead;
+	font-size:12px;
+	margin-top:0px;
+}
+.content
+{
+/*	height:400px; */
+	border-bottom:1px dashed;
+	border-bottom-color:#5e84b2;
+}
+.Content_Bottom_Block
+{
+	float:left;
+	width:242px;
+	margin-top:15px;
+	margin-right:10px;
+}
+.Content_Bottom_Block img
+{
+	width:31px;
+	height:31px;
+	border:0px;
+	float:left;
+	margin-right:10px;
+}
+#Game h1, #Game h1 a
+{
+	color:#ffffff;
+	font-size:15px;
+	margin:0px;
+	padding:0px;
+}
+#Game h2, #Game h2 a
+{
+	color:#c6dfff;
+	font-size:12px;
+	margin:0px;
+}
+#Game p, #Game p a
+{
+	color:#ffffff;
+	font-size:11px;
+	margin-top:10px;
+}
+#Game h1 a:hover, #Game h2 a:hover, #Game p a:hover, .GameURL:hover
+{
+	color:#aac8ff;
+}
+.GameURL
+{
+	font-weight:900;
+	text-decoration:underline;
+}
+#Bottom_Line
+{
+	width:100%;
+	height:80px;
+	background:url("../img/bottom_bg.jpg");
+	position:relative;
+	bottom:0px;
+}
+#Bottom_Logo
+{
+	width:76px;
+	height:37px;
+	float:left;
+	margin-right:10px;
+	margin-top:20px;
+}
+#copyright
+{
+	color:#ffffff;
+	font-size:12px;
+	float:left;
+	margin-top:33px;
+}
+.mail a
+{
+	text-decoration:underline;
+}
